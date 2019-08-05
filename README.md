@@ -9,4 +9,7 @@ pipeline thinking
 ---
 Grayscale, Gauss filtering, image binarization block by block with Canny operator (the purpose of segmentation is to improve detection accuracy, reduce processing area, more concentrated features, better processing results) and then extract edges based on regions of interest; on this basis, Hough transform (setting the shortest line segment and line segment) is carried out. Interval, angle, etc.) Lane features are obtained. Oblique straight lines are obtained through feature processing. Similarity matching and classification are carried out. Lane lines without vanishing points are eliminated based on vanishing point characteristics. Lane lines are smoothed based on smoother tracker to get the final lane.
 
+more details see below:  
 
+车道线检测-从单车道到多车道的车道线检测（三）  
+https://blog.csdn.net/qq_42258099/article/details/95099584
